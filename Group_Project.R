@@ -1,10 +1,10 @@
 library(tidyverse)
 library(countrycode) # continent group data
 library(GGally)
-fat <- read_csv('data/Fat_Supply_Quantity_Data.csv')%>% select(-`Unit (all except Population)`)%>% drop_na()
-protein <- read_csv('data/Protein_Supply_Quantity_Data.csv') %>% select(-`Unit (all except Population)`)%>% drop_na()
-kcal <- read_csv('data/Food_Supply_kcal_Data.csv')%>% select(-`Unit (all except Population)`) %>% drop_na()
-kg <- read_csv('data/Food_Supply_Quantity_kg_Data.csv') %>% select(-`Unit (all except Population)`)%>% drop_na()
+fat <- read_csv('Fat_Supply_Quantity_Data.csv')%>% select(-`Unit (all except Population)`)%>% drop_na()
+protein <- read_csv('Protein_Supply_Quantity_Data.csv') %>% select(-`Unit (all except Population)`)%>% drop_na()
+kcal <- read_csv('Food_Supply_kcal_Data.csv')%>% select(-`Unit (all except Population)`) %>% drop_na()
+kg <- read_csv('Food_Supply_Quantity_kg_Data.csv') %>% select(-`Unit (all except Population)`)%>% drop_na()
 
 # Convert <2.5 in undernourished column to 0, and set as numeric column
 kg <- kg %>% 
