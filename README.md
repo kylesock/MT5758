@@ -2,7 +2,7 @@
 Repository for the Data Analysis on Covid and Dietary data from 154 countries.
 
 ## Dimension Reduction
-The beginning of the EDA looks to see correlations between the variables. Note the plot below uses red to illustrate positive correlations, and blue for negative correlations.
+The beginning of the EDA looks to see correlations between the variables. Note the plot below uses red to illustrate negative correlations, and blue for positive correlations.
 
 ![85800cc9-3919-4945-b114-1b094b24ac50](https://user-images.githubusercontent.com/54775123/217654128-43c02f16-7664-4222-92b3-58e5e53a58da.png)
 
